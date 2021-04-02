@@ -1,0 +1,85 @@
+body{
+  background: #CCC;
+}
+.corpoChat{
+  background: #FFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  max-width: 800px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 100px;
+}
+.salvar{
+  color: #546E7A;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Rubik",Helvetica,Arial,sans-serif;
+}
+ .balaoChatSystem{
+  background: #FFF;
+	border-radius: 0 30px 30px 0;
+  width: 300px;
+	height: 100px;
+  position: relative;
+  margin-bottom: 1em;
+  right: 0;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  color: #546E7A;
+  font-weight: 400;
+  padding: 15px;
+}
+/*.balaoChatSystem:after{
+  content: " ";
+  height: 0;
+  width: 0;
+  right: -32px;
+  border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid blue;
+	border-radius: 50%;
+}*/
+.balaoChatUser{
+  background: #FFF;
+	border-radius: 0 30px 30px 0;
+	position: relative;
+  margin-bottom: 1em;
+  right: 0;
+  margin-left: 60%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  color: #546E7A;
+  font-weight: 400;
+  padding: 15px;
+}
+.balaoChatUser input{
+  border: none;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.balaoChatUser button{
+  background: rgb(238, 83, 157);
+  color: #FFF;
+  right: 0;
+  display: inline;
+
+}
+/*.balaoChatUser:after{
+  content: " ";
+  height: 0;
+  width: 0;
+  right: -32px;
+  border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 50px solid blue;
+	border-radius: 50%;
+}*/
+.erro{
+  color: red;
+  display: block;
+}
